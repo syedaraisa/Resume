@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --primary-clr:#ED7D31;
+}
+.bg-primary{
+    background-color: var(--primary-clr) !important;
+    color: #fff;
+}
+.clr{
+  color: var(--primary-clr);
+}
+.container{
+    /* width: 992px; */
+}
+.introduction h2{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    letter-spacing: 1.5;
+}
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.address ul li{
+   
+    margin-top: 20px;
+}
+.address ul li i{
+   color: var(--primary-clr);
+   font-size: 30px;
+   margin-right: 10px;
+}
+.education p{
+    line-height: .5;
+}
+.progress_bar h6{
+    line-height: .4;
+}
+.prog-bar{
+    width: 100%;
+    height: 5px;
+    background:#C9C9C9;
+    
+}
+.html,.css,.js,.react,.bootstrap,.program,.php,.wp{
+    position: relative;
+}
+.html::after,.css::after,.js::after,.react::after,.bootstrap::after,.program::after,
+.php::after,.wp:after{
+    position: absolute;
+    content: "";
+    width: 95%;
+    height: 5px;
+    background:var(--primary-clr);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.css::after{
+    width: 96%;
+}
+.js::after{
+    width: 90%;
+}
+.react::after{
+    width: 90%;
+}
+.bootstrap::after{
+    width: 97%;
+}
+.program::after{
+    width: 85%;
+}
+.php::after{
+    width:94%;
+}
+
+.wp:after{
+    width:96%;
+}
+
+.knowledge h4{
+    
+    line-height: .5;
+}
+
+.course-and-training p{
+    
+    position: relative;
+}
+.course-and-training p::after{
+    content: attr(data-text1);
+    position: absolute;
+    top: 95%;
+    left: 0;
+    font-size: .8rem;
+    color: #554d4d;
+}
+.WORKING-EXPERIENCE p{
+    position: relative;
+    margin-left: 30px;
+}
+.WORKING-EXPERIENCE p::before{
+    position: absolute;
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f00c";
+    font-weight: 900;
+    left: -30px;
+    color: var(--primary-clr);
+}
+
